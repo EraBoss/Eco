@@ -1,0 +1,322 @@
+@import 'null.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+/*.content {
+}*/
+.block1 {
+    height: 100vh;
+    background: url('../img/imgv.png') no-repeat center ;
+    background-size: cover;
+		&__body {
+            margin: 0 auto;
+		}
+		&__menu {
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 2.6px;
+            color: #4d4959;
+            display: flex;
+            justify-content: center;
+            li{
+                margin-top: 35px;
+                display: flex;
+                margin-left: 65px;
+                align-items: center;
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+		}
+}
+
+.block2 {
+    /*&__body {
+    }*/
+
+    &__icon {
+        margin-top: 115px;
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+    }
+
+    &__texts {
+        margin-bottom: 140px;
+        font-size: 18px;
+        line-height: 1.89;
+        text-align: center;
+        color: #848789;
+    }
+}
+
+.block3 {
+
+    &__row {
+        display: flex;
+    }
+
+    &__column {
+        flex: 0 0 66.6875%;
+        background: url('../img/layer-10.png') center center no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__colrow {
+        flex: 0 0 33.3125%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__colrow-body {
+        margin: 0 auto;
+    }
+
+    &__icon {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.88;
+        color: #848789;
+        flex: 1 1 auto;
+        &::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 1px;
+            background-color: #353738;
+            margin: 40px auto 55px auto;
+        }
+    }
+
+    /*&__colrow-footer {
+    }*/
+}
+
+.block4 {
+
+    &__row {
+        display: flex;
+    }
+
+    &__colrow {
+        flex: 0 0 33.3125%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__colrow-body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__colrow-icon {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.88;
+        color: #848789;
+        flex: 1 1 auto;
+        &::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 1px;
+            background-color: #353738;
+            margin: 40px auto 55px auto;
+        }
+    }
+
+    /*&__colrow-footer {
+    }*/
+
+    &__column {
+        flex: 0 0 66.6875%;
+        background: url('../img/layer-12.png') center center no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.block5 {
+
+    &__row {
+        display: flex;
+    }
+
+    &__column {
+        flex: 0 0 33.3125%;
+        background: url('/img/layer-15.png') center center no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__colrow {
+        flex: 0 0 33.375%;
+    }
+
+    &__column2 {
+        flex: 0 0 33.3125%;
+        background: url('../img/layer-14.png') center center no-repeat;
+        background-size: cover;    
+    }
+
+    &__colrow-body {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__icon {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.88;
+        color: #848789;
+        flex: 1 1 auto;
+        &::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 1px;
+            background-color: #353738;
+            margin: 40px auto 55px auto;
+        }
+    }
+
+    /*&__colrow-footer {
+    }*/
+}
+
+/*.img1 {
+}*/
+.img2 {
+    width: 100%;
+}
+/*.img3 {
+}*/
+.img4 {
+    width: 100%;
+}
+.img5 {
+    opacity: 0;
+}
+
+.container-1 {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+.container-2 {
+    max-width: 400px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #353738;
+}
+.footer {
+    background: #e3e3e3;
+}
+.marg{
+    height: 1000px;
+}
+
+@media (max-width:1000px) {
+    .block3 , .block4 {
+        &__row {
+            flex-direction: column;
+        }
+        &__column {
+            flex: 0 0 600px;
+        }
+        /*&__column2 {
+            background: url('../img/layer-14.png') center center no-repeat;
+            background-size: contain;   
+            flex: 0 0 600px;
+        }*/
+        &__colrow {
+            flex: 0 0 auto;
+        }
+        }
+}
+@media (max-width:1000px) {
+    .block5 {
+        &__row {
+            flex-direction: column;
+    
+        }
+        &__column {
+            flex: 0 0 600px;
+        }
+    
+        &__colrow {
+            flex: 0 0 auto;
+        }
+    
+        &__column2 {
+            flex: 0 0 600px;
+        }
+    }
+}
+@media (max-width:625px) {
+    .block1 { 
+        &__menu {
+            font-size: 9px;
+            letter-spacing: 1.5px;
+            li{
+                margin-top: 20px;
+                margin-left: 30px;
+                &:first-child{
+                    margin-left: 0;
+                }
+            } 
+        }
+    }
+}
